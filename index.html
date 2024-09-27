@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Condiciones JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!--problema 1-->
+
+    <div>
+      <p>
+        <b>
+          Resuelve los 3 problemas siguientes. Aplicando los conceptos y
+          herramientas. Tendrás que utilizar manipulación del DOM y las
+          instrucciones if else if y else y operadores lógicos donde
+          corresponda.</b
+        >
+      </p>
+    </div>
+
+    <h1>Problema 1</h1>
+    <div>
+      <p>
+        Se debe construir una página con una única imagen, al hacerle
+        <b>click</b> a la imagen se le debe agregar un
+        <b>borde rojo de 2 pixeles,</b> al hacerle <b>click</b> nuevamente se le
+        debe
+        <b>quitar el borde.</b>
+      </p>
+    </div>
+
+    <div>
+      <img id="imagen" src="./assets/img/fotico1.jpg" alt="" />
+    </div>
+
+    <!--fin del problema 1-->
+
+    <!--problema 2-->
+
+    <h1>Problema 2</h1>
+    <div>
+      <p>
+        Se debe construir una página web que permita pedir hasta
+        <b>10 stickers de los 3 tipos disponibles.</b> Para eso deberá existir
+        un input debajo de cada imagen donde el usuario podrá ingresar un
+        número. En caso de que la suma de todos los
+        <b>stickers seleccionados sea menor o igual 10</b> se indicará en un
+        párrafo nuevo la cantidad de stickers llevados. Ejemplo
+        <b>"llevas 5 stickers"</b> en cualquier otro caso se mostrará un texto
+        que dice <b>"Llevas demasiados stickers".</b>
+      </p>
+    </div>
+    <div>
+      <menu>
+        <ul>
+          <b>A.</b>
+          El párrafo muestra la cantidad de stickers seleccionados
+        </ul>
+
+        <ul>
+          <b>B.</b>
+          El párrafo muestra que lleva demasiados stickers en caso de que la
+          cantidad sea mayor que 10.
+        </ul></menu
+      >
+    </div>
+    <div>
+      <p style="color: green">
+        <b>Puedes llevar hasta 10 stickers en total</b>
+      </p>
+    </div>
+    <div>
+      <img class="stickers" src="./assets/img/stickersjs.jpeg" alt="" />
+      <img class="stickers" src="./assets/img/stickerscode.jpeg" alt="" />
+      <img class="stickers" src="./assets/img/stickerscss.jpeg" alt="" />
+    </div>
+    <div>
+      <input id="input1" type="text" />
+      <input id="input2" type="text" />
+      <input id="input3" type="text" />
+    </div>
+    <div class="boton">
+      <button id="btnverificar">verificar</button>
+    </div>
+    <div id="mensaje"></div>
+
+    <!--fin del problema 2-->
+
+    <!--problema 3-->
+
+    <h1>Problema 3</h1>
+    <div>
+      <p>
+        Se debe construir <b>3 select y opciones con dígitos del 1 al 9,</b> al
+        hacer <b>click</b> a la opción ingresar se debe verificar que el
+        password sea <b>911</b> y en ese caso mostrar debajo del
+        <b>botón ingresar,</b> un párrafo con el contenido
+        <b>"password 1 correcto",</b> en caso de que el password sea
+        <b>714</b> se debe mostrar en el párrafo
+        <b>"password 2 es correcto",</b> si ingresa otro valor se debe mostrar
+        <b>"password incorrecto".</b>
+      </p>
+    </div>
+    <div>
+      <menu>
+        <ul>
+          <b>A.</b>
+          Se muestra correctamente el párrafo
+          <b
+            >"password 1 correcto" al ingresar el password 911 utilizando los
+            select y luego presionando botón con el texto ingresar.</b
+          >
+        </ul>
+        <ul>
+          <b>B.</b>
+          Adicionalmente se muestra correctamente el párrafo
+          <b
+            >"password 2 correcto" al ingresar el password 714 utilizando los
+            select y luego presionando botón con el texto ingresar.</b
+          >
+        </ul>
+        <ul>
+          <b>C.</b>
+          Se muestra
+          <b>password incorrecto al seleccionar cualquier otro password</b>
+        </ul>
+      </menu>
+    </div>
+    <div>
+      <p><b>Ingresa el password</b></p>
+    </div>
+
+    <div>
+      <select id="select1">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="select2">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="select3">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+    </div>
+    <div class="boton">
+      <button id="btningresar">ingresar</button>
+    </div>
+    <div id="mensaje2"></div>
+    <!--fin del problema 3-->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

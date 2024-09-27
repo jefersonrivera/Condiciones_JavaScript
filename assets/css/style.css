@@ -1,0 +1,64 @@
+/* problema 1 */
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 15px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 20vw;
+  height: 30%;
+  margin-top: 15px;
+}
+/* fin del problema 1 */
+
+/* problema 2 */
+
+.stickers {
+  width: 200px;
+  height: 200px;
+
+  margin-top: 35px;
+}
+input {
+  margin: 20px;
+  text-align: center;
+}
+#password .boton {
+  margin-top: 10px;
+}
+button {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+#mensaje {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+/* fin del problema 2 */
+
+/* problema 3*/
+
+select {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#mensaje2 {
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+/* fin problema 3 */
